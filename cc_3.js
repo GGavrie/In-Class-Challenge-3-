@@ -48,3 +48,33 @@ inventory.removelatestItem();
 console.log (inventory.items);
 inventory.removeFirstItem();
 console.log(inventory.items)
+
+// Task 7 
+let employees = [
+    {name: "Alice",position: "Developer", salary ; 70000},
+    {name: "Bob",position: "Bob", salary: 500000},
+    {name: "Charlie",position: "teller ": "Charlie",salary: 70000}
+
+    function findemployees(employees, name,) {
+        return employees.find(employee => employee.name === name);
+    }
+
+
+
+        console.log (findEmployee(employees,"Charlie"))
+
+        // Task 8 Combiinding arrays 
+        let orders1 = [
+            {id: 1 ,customer: "Alice"},
+            {id 2 , customer: "Bob"}
+        ];
+        let orders 2 = [
+            {id: 1 ,customer: "Alice"},
+            {id 2 , customer: "Bob"}
+        ];
+
+        funciton combineOrders(order1, order2){
+            return [...order1, ...order2 ]
+
+        }
+        console.log(combineOrders(orders1 , orders 2 ))
